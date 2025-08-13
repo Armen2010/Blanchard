@@ -204,3 +204,42 @@ ul{
     width: 250px;
 }
 
+.nkar-li{
+   display: flex;
+   align-items: center;
+}
+
+.nkar-div{
+   display: flex;
+}
+
+.nkar-text{
+    width: 450px;
+    font-size: 12px;
+    font-weight: 16;
+    color: #333333;
+}
+
+.nkar{
+    width: 450px;
+    margin: 15px 15px 20px 40px;
+}
+
+.nkar-h2{
+    color: #333333;
+}
+
+.nkar-p{
+    color: #999999;
+    font-size: 12px;
+    font-weight: 12;
+}
+
+.p{
+    margin: 15px 15px 20px 40px;
+}
+
+.katalog{
+    margin: 15px 15px 20px 40px;
+    font-weight: 12;
+}
