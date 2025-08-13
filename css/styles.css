@@ -34,8 +34,31 @@ ul{
 }
 
 .nav-list-item{
-    font-size: 15px;
+    display: flex;
+    gap: 20px; 
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
     padding-left: 52px;
+}
+
+.logo {
+    height: 40px; 
+    margin: 20px 85px;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.poisk-a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+    margin: 20px 85px;
 }
 
  .home-img {
@@ -65,6 +88,7 @@ ul{
     width: 100%;
     font-size: 56px;
     margin: 1px 0px 20px 0px;
+    line-height: 47px;
 }
 
 .limited-text {
@@ -80,5 +104,103 @@ ul{
     padding: 16px 35px;
     border-radius: 35px;
     font-size: 15px;
+}
+
+/* O NAS */
+
+.nas-title{
+    color: #333333;
+    font-size: 48px;
+    font-weight: 14;
+    margin: 80px 0px 16px 160px;
+}
+
+.nas-text{
+    color: #333333;
+    width: 750px;
+    font-size: 13px;
+    margin: 0px 0px 16px 160px;
+    line-height: 27px;
+}
+
+/* GALERYIA */
+
+
+/* .galeryia{
+    position: relative;
+}
+
+.galeryia-div{
+   position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    padding: 50px 45px;
+    color: white;
+}
+
+.galeryia-li{
+    width: 250px;
+}
+
+.galeryia-ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+} */
+
+.galeryia {
+    position: relative;
+    display: inline-block;
+}
+
+.galeryia img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.galeryia-div {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    padding: 50px 45px;
+    color: white;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    pointer-events: none; 
+}
+
+.galeryia-ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: flex-end;
+}
+
+.galeryia-li {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    width: 250px;
+}
+
+.heroglif {
+    width: 250px;
 }
 
