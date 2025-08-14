@@ -11,7 +11,6 @@ background-color: #fff;
 
 a{
     color: inherit;
-    text-decoration: none;
 }
 
 .nav-list-item{
@@ -41,6 +40,10 @@ ul{
     margin: 0;
     font-size: 12px;
     padding-left: 52px;
+}
+
+.nav-list-item a {
+    text-decoration: none;
 }
 
 .logo {
@@ -106,6 +109,10 @@ ul{
     font-size: 15px;
 }
 
+.home-link a {
+    text-decoration: none;
+}
+
 /* O NAS */
 
 .nas-title{
@@ -124,34 +131,6 @@ ul{
 }
 
 /* GALERYIA */
-
-
-/* .galeryia{
-    position: relative;
-}
-
-.galeryia-div{
-   position: absolute;
-    z-index: 2;
-    top: 0;
-    left: 0;
-    padding: 50px 45px;
-    color: white;
-}
-
-.galeryia-li{
-    width: 250px;
-}
-
-.galeryia-ul {
-    display: flex;
-    gap: 20px;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    flex-wrap: wrap;
-    justify-content: center;
-} */
 
 .galeryia {
     position: relative;
@@ -242,4 +221,85 @@ ul{
 .katalog{
     margin: 15px 15px 20px 40px;
     font-weight: 12;
+}
+
+/* sabitia */
+
+.sabitia-list{
+    display: flex;
+}
+
+.sabitia-item{
+    width: 370px;
+    margin: 16px 30px 80px 0px;
+    border: 1px solid #CACACA;
+}
+
+.sabitia-div{
+    margin: 30px;
+}
+
+.sabitia-h2{
+    font-size: 25px;
+    font-weight: 16;
+    margin: 16px 0px 0px 16px;
+}
+
+.sabitia-p{
+    color: #999999;
+    font-size: 13px;
+    width: 155px;
+    margin: 0px;
+}
+
+.sabitia-p-p{
+    color: #333333;
+    font-size: 18px;
+    font-weight: 700;
+    width: 270px;
+}
+
+.sabitia-text{
+    color: #333333;
+    margin: 10px 0px 66px 0px;
+    width: 350px;
+    line-height: 30px;
+}
+
+.sabitia-a{
+    color: #9D5CD0;
+}
+
+/* proekti */
+
+.proekti-h2{
+    font-size: 25px;
+    font-weight: 16;
+    margin: 0px 0px 0px 16px;
+    color: #333333;
+}
+
+.proekti-text{
+    width: 662px;
+    font-size: 13px;
+    margin: 0px 0px 0px 16px;
+    font-weight: 13;
+    color: #333333;
+}
+
+.proekti-p{
+    font-size: 18px;
+    font-weight: 700;
+    margin: 10px 0px 5px 16px;
+    color: #333333;
+}
+
+.proekti-li{
+    display: flex;
+    margin: 0px 0px 0px 16px;
+    width: 200px;
+}
+
+.proekti-img{
+    margin: 0px 20px 0px 0px;
 }
